@@ -7,9 +7,9 @@ metadata:
     storageclass.kubernetes.io/is-default-class: "true"
   labels:
     isSyncedFromSupervisor: "yes"
-  name: vc01cl01-t0compute
+  name: veritas-storage-policy
 parameters:
-  svStorageClass: vc01cl01-t0compute
+  svStorageClass: veritas-storage-policy
 provisioner: csi.vsphere.vmware.com
 reclaimPolicy: Delete
 volumeBindingMode: Immediate
